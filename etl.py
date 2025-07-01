@@ -114,7 +114,7 @@ def log_etl_end(conn, log_id, table_name, status, records_processed, error_msg=N
     execute_sql(conn, query, (datetime.now(), status, records_processed, error_msg, log_id))
 
 def read_csv_with_encoding_tries(file_path):
-    """Чтение CSV с попытками разных кодировок (финальная версия)"""
+    """Чтение CSV с попытками разных кодировок"""
     encodings = ['utf-8-sig', 'cp1251', 'latin1', 'utf-16-le']
     
     for encoding in encodings:

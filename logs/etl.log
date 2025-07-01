@@ -1,0 +1,52 @@
+2025-07-01 23:21:02,512 - INFO - Начало ETL-процесса
+2025-07-01 23:21:02,556 - INFO - Успешное подключение к базе данных
+2025-07-01 23:21:02,556 - INFO - Искусственная задержка 5 секунд...
+2025-07-01 23:21:07,557 - INFO - Начало загрузки данных в таблицу ds.ft_balance_f из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_balance_f.csv
+2025-07-01 23:21:07,574 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_balance_f.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:07,586 - INFO - Успешно загружено 114 записей в таблицу ds.ft_balance_f
+2025-07-01 23:21:07,587 - INFO - Начало загрузки данных в таблицу ds.ft_posting_f из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_posting_f.csv
+2025-07-01 23:21:07,608 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_posting_f.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:07,612 - INFO - Таблица ds.ft_posting_f очищена перед загрузкой новых данных
+2025-07-01 23:21:08,608 - INFO - Успешно загружено 33892 записей в таблицу ds.ft_posting_f
+2025-07-01 23:21:08,611 - INFO - Начало загрузки данных в таблицу ds.md_account_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_account_d.csv
+2025-07-01 23:21:08,614 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_account_d.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:08,625 - INFO - Успешно загружено 112 записей в таблицу ds.md_account_d
+2025-07-01 23:21:08,625 - INFO - Начало загрузки данных в таблицу ds.md_currency_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_currency_d.csv
+2025-07-01 23:21:08,627 - WARNING - Не удалось прочитать с кодировкой utf-8-sig: 'utf-8' codec can't decode byte 0x98 in position 1189: invalid start byte
+2025-07-01 23:21:08,628 - WARNING - Не удалось прочитать с кодировкой cp1251: 'charmap' codec can't decode byte 0x98 in position 1189: character maps to <undefined>
+2025-07-01 23:21:08,630 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_currency_d.csv прочитан с кодировкой latin1
+2025-07-01 23:21:08,637 - INFO - Успешно загружено 50 записей в таблицу ds.md_currency_d
+2025-07-01 23:21:08,638 - INFO - Начало загрузки данных в таблицу ds.md_exchange_rate_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_exchange_rate_d.csv
+2025-07-01 23:21:08,641 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_exchange_rate_d.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:08,688 - INFO - Успешно загружено 892 записей в таблицу ds.md_exchange_rate_d
+2025-07-01 23:21:08,690 - INFO - Начало загрузки данных в таблицу ds.md_ledger_account_s из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_ledger_account_s.csv
+2025-07-01 23:21:08,693 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_ledger_account_s.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:08,697 - INFO - Успешно загружено 18 записей в таблицу ds.md_ledger_account_s
+2025-07-01 23:21:08,698 - INFO - ETL-процесс успешно завершен
+2025-07-01 23:21:08,698 - INFO - Соединение с базой данных закрыто
+2025-07-01 23:21:33,312 - INFO - Начало ETL-процесса
+2025-07-01 23:21:33,359 - INFO - Успешное подключение к базе данных
+2025-07-01 23:21:33,359 - INFO - Искусственная задержка 5 секунд...
+2025-07-01 23:21:38,359 - INFO - Начало загрузки данных в таблицу ds.ft_balance_f из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_balance_f.csv
+2025-07-01 23:21:38,376 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_balance_f.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:38,390 - INFO - Успешно загружено 114 записей в таблицу ds.ft_balance_f
+2025-07-01 23:21:38,392 - INFO - Начало загрузки данных в таблицу ds.ft_posting_f из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_posting_f.csv
+2025-07-01 23:21:38,411 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\ft_posting_f.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:38,417 - INFO - Таблица ds.ft_posting_f очищена перед загрузкой новых данных
+2025-07-01 23:21:39,429 - INFO - Успешно загружено 33892 записей в таблицу ds.ft_posting_f
+2025-07-01 23:21:39,432 - INFO - Начало загрузки данных в таблицу ds.md_account_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_account_d.csv
+2025-07-01 23:21:39,437 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_account_d.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:39,448 - INFO - Успешно загружено 112 записей в таблицу ds.md_account_d
+2025-07-01 23:21:39,450 - INFO - Начало загрузки данных в таблицу ds.md_currency_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_currency_d.csv
+2025-07-01 23:21:39,451 - WARNING - Не удалось прочитать с кодировкой utf-8-sig: 'utf-8' codec can't decode byte 0x98 in position 1189: invalid start byte
+2025-07-01 23:21:39,453 - WARNING - Не удалось прочитать с кодировкой cp1251: 'charmap' codec can't decode byte 0x98 in position 1189: character maps to <undefined>
+2025-07-01 23:21:39,457 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_currency_d.csv прочитан с кодировкой latin1
+2025-07-01 23:21:39,466 - INFO - Успешно загружено 50 записей в таблицу ds.md_currency_d
+2025-07-01 23:21:39,468 - INFO - Начало загрузки данных в таблицу ds.md_exchange_rate_d из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_exchange_rate_d.csv
+2025-07-01 23:21:39,474 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_exchange_rate_d.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:39,529 - INFO - Успешно загружено 892 записей в таблицу ds.md_exchange_rate_d
+2025-07-01 23:21:39,530 - INFO - Начало загрузки данных в таблицу ds.md_ledger_account_s из файла D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_ledger_account_s.csv
+2025-07-01 23:21:39,535 - INFO - Файл D:\Документы\NeoFlex\Проектные задания\1\bank_etl\data\md_ledger_account_s.csv прочитан с кодировкой utf-8-sig
+2025-07-01 23:21:39,540 - INFO - Успешно загружено 18 записей в таблицу ds.md_ledger_account_s
+2025-07-01 23:21:39,541 - INFO - ETL-процесс успешно завершен
+2025-07-01 23:21:39,542 - INFO - Соединение с базой данных закрыто
