@@ -1,0 +1,4 @@
+# Основные зависимости
+pandas==1.4.3
+psycopg2_binary==2.9.10
+python-dotenv==1.1.1
